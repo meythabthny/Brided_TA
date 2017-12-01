@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.91" prefHeight="403.0" prefWidth="640.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="brided.WelcomeController">
+   <children>
+      <ImageView fitHeight="416.0" fitWidth="656.0" layoutX="-5.0" layoutY="-13.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@IMG/1424516_600596986678041_1814815669_n.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="120.0" layoutY="213.0" onAction="#Admin" opacity="0.79" prefHeight="48.0" prefWidth="179.0" style="-fx-background-color: #424242;" text="Admin" textFill="#f2eded">
+         <font>
+            <Font name="Comic Sans MS" size="23.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="355.0" layoutY="213.0" onAction="#Pelanggan" opacity="0.79" prefHeight="48.0" prefWidth="179.0" style="-fx-background-color: #424242;" text="Pelanggan" textFill="#f2eded">
+         <font>
+            <Font name="Comic Sans MS" size="23.0" />
+         </font>
+      </JFXButton>
+      <Label layoutX="150.0" layoutY="68.0" prefHeight="102.0" prefWidth="366.0" text="Welcome to Brided">
+         <font>
+            <Font name="Miraculous&amp;Christmas" size="66.0" />
+         </font>
+      </Label>
+      <Label layoutX="244.0" layoutY="150.0" prefHeight="39.0" prefWidth="179.0" text="Find Your Gown">
+         <font>
+            <Font name="Miraculous&amp;Christmas" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
